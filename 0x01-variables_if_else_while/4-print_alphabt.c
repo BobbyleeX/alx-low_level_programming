@@ -1,23 +1,23 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
 /**
 * main - program will assign a random number to the variable n
-* Return: Always 0
+* Return 0 always
 */
 
 int main(void)
 {
-	char ch;
+	char la;
 
-	for (ch = 'a'; ch < 'z'; ch++)
-		putchar(ch);
-
-	for (ch = 'A'; ch < 'Z'; ch++)
-		putchar(ch);
-
-	putchar('\n');
+	for (la = 'a'; la <= 'z'; la++)
+	{
+		if (la != 'e' && la != 'q')
+			putchar(la)la;
+	}
+	putchar(\n);
 
 	return (0);
 }
