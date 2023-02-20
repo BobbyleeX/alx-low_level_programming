@@ -3,7 +3,8 @@
 #include <time.h>
 
 /**
-* main - program will assign a random number to the variable n
+* main -program will assign a random number to the variable 
+* n each time it is executed
 * return: zero
 */
 int main(void)
@@ -17,8 +18,8 @@ int main(void)
 
 	if (n > 5)
 	{
-		printf("last digit of %d is greater than 5: the string and is g
-			reater than 5\n", n, a);
+		printf("last digit of %d is greater than 5: the string and is
+greater than 5\n", n, a);
 	}
 	else if (a == 0)
 	{
@@ -27,7 +28,7 @@ int main(void)
 	else
 	{
 		printf("the last digit of %d is less than 6 and not 0: the string
-			and is less than 6 and not 0\n", n, a);
+and is less than 6 and not 0\n", n, a);
 	}
 
 	return (0);

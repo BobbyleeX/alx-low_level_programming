@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
-* main - program will assign a random number to the variable n
+* main -program that prints all single digit numbers of base 10 starting from 0
 * Return: 0 always
 */
 
@@ -18,4 +18,3 @@ int main(void)
 
 	return (0);
 }
-

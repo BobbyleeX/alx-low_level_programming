@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
-* main - program will assign a random number to the variable n
+* main -program that prints the alphabet in lowercase, and then in uppercase
 * Return: Always 0
 */
 
