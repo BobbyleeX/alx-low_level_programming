@@ -1,21 +1,12 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * print_to_98 - print all numbers from input to 98
- * @n: the starting number
+ * add - add two numbers
+ * @a: the first number
+ * @b: the second number
+ * Return: the addituon of both
  */
-void print_to_98(int n)
+int add(int a, int b)
 {
-	if (n >= 98)
-	{
-		while (n > 98)
-			printf("%d\n", n);
-	}
-	else
-	{
-		while (n < 98)
-			printf("%d, ", n++);
-		printf("%d\n", n);
-	}
+	return (a + b);
 }
