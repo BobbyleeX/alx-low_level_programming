@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit - prints the last digit
- * @n: the number
+ * @n: the number to pass to _isalpha function
  * Return: value of the last digit
  */
 int print_last_digit(int n)
